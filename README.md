@@ -1,8 +1,12 @@
-# React + Vite
+# TODO LIST
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a user-friendly TODO list application that allows you to create an account and save your personalized task lists. 
 
-Currently, two official plugins are available:
+To run this, 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+JSON Server is required to simulate a RESTful API backend:
+- Install JSON Server: npm install [json-server](https://www.npmjs.com/package/json-server)
+- Start the server: [json-server](https://www.npmjs.com/package/json-server) --watch data/data.json --port 3000
+
+Then run the application:
+- Start the front end server: npm run dev
